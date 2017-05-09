@@ -1,0 +1,4192 @@
+fileFormatVersion: 2
+guid: 16f557b658bd8424298030be6ce0bfd3
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Arm_L
+    100002: Arm_R
+    100004: Armature
+    100006: Arms
+    100008: Elbow_L
+    100010: Elbow_R
+    100012: //RootNode
+    100014: Hand_L
+    100016: Hand_R
+    100018: index_L1
+    100020: index_L2
+    100022: index_L3
+    100024: index_R1
+    100026: Index_R2
+    100028: Index_R3
+    100030: l1
+    100032: l2
+    100034: l3
+    100036: l4
+    100038: l5
+    100040: middle_L1
+    100042: middle_L2
+    100044: middle_L3
+    100046: middle_R1
+    100048: middle_R2
+    100050: middle_R3
+    100052: r1
+    100054: r2
+    100056: r3
+    100058: r4
+    100060: r5
+    100062: ring_L1
+    100064: ring_L2
+    100066: ring_L3
+    100068: ring_R1
+    100070: ring_R2
+    100072: ring_R3
+    100074: thumb_L1
+    100076: thumb_L2
+    100078: thumb_R1
+    100080: thumb_R2
+    100082: tiny_L1
+    100084: tiny_L2
+    100086: tiny_L3
+    100088: tiny_R1
+    100090: tiny_R2
+    100092: tiny_R3
+    100094: UpArm_L
+    100096: UpArm_R
+    400000: Arm_L
+    400002: Arm_R
+    400004: Armature
+    400006: Arms
+    400008: Elbow_L
+    400010: Elbow_R
+    400012: //RootNode
+    400014: Hand_L
+    400016: Hand_R
+    400018: index_L1
+    400020: index_L2
+    400022: index_L3
+    400024: index_R1
+    400026: Index_R2
+    400028: Index_R3
+    400030: l1
+    400032: l2
+    400034: l3
+    400036: l4
+    400038: l5
+    400040: middle_L1
+    400042: middle_L2
+    400044: middle_L3
+    400046: middle_R1
+    400048: middle_R2
+    400050: middle_R3
+    400052: r1
+    400054: r2
+    400056: r3
+    400058: r4
+    400060: r5
+    400062: ring_L1
+    400064: ring_L2
+    400066: ring_L3
+    400068: ring_R1
+    400070: ring_R2
+    400072: ring_R3
+    400074: thumb_L1
+    400076: thumb_L2
+    400078: thumb_R1
+    400080: thumb_R2
+    400082: tiny_L1
+    400084: tiny_L2
+    400086: tiny_L3
+    400088: tiny_R1
+    400090: tiny_R2
+    400092: tiny_R3
+    400094: UpArm_L
+    400096: UpArm_R
+    4300000: Arms
+    7400000: Default Take
+    7400002: empty
+    7400004: Idle
+    7400006: Walk
+    7400008: ClimbUp
+    7400010: PistolDraw
+    7400012: PistolFire
+    7400014: PistolReload
+    7400016: Rifle
+    7400018: RifleReload
+    7400020: RifleRaise
+    7400022: RifleIdle2
+    7400024: RifleFire
+    7400026: RifleIdle1to2
+    7400028: RifleIdle1
+    7400030: MeleeSlashR
+    7400032: MeleeStab
+    7400034: FistPunchR
+    7400036: FistPunchL
+    7400038: FistLower
+    7400040: FistInspect
+    7400042: ItemPickup
+    7400044: ItemRing
+    7400046: OrderTakedown
+    7400048: RifleDrawBack
+    7400050: BowPull
+    7400052: BowPullIdle
+    7400054: BowRelease
+    7400056: BowReleaseCycle
+    7400058: BowReload
+    7400060: BowHit
+    7400062: BowPullWalk
+    9500000: //RootNode
+    13700000: Arms
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 799
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: empty
+      takeName: Action
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Default Take
+      firstFrame: 11
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Default Take
+      firstFrame: 41
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ClimbUp
+      takeName: Default Take
+      firstFrame: 73
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PistolDraw
+      takeName: Default Take
+      firstFrame: 97
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PistolFire
+      takeName: Default Take
+      firstFrame: 112
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PistolReload
+      takeName: Default Take
+      firstFrame: 121
+      lastFrame: 172
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rifle
+      takeName: Default Take
+      firstFrame: 173
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RifleReload
+      takeName: Default Take
+      firstFrame: 181
+      lastFrame: 229
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RifleRaise
+      takeName: Default Take
+      firstFrame: 230
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RifleIdle2
+      takeName: Default Take
+      firstFrame: 241
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RifleFire
+      takeName: Default Take
+      firstFrame: 271
+      lastFrame: 278
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RifleIdle1to2
+      takeName: Default Take
+      firstFrame: 280
+      lastFrame: 290
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RifleIdle1
+      takeName: Default Take
+      firstFrame: 291
+      lastFrame: 330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MeleeSlashR
+      takeName: Default Take
+      firstFrame: 331
+      lastFrame: 344
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .746834517
+        functionName: MeleeTrace
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: adbf9096ab2094d72ae1e085fe59fbed,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MeleeStab
+      takeName: Default Take
+      firstFrame: 345
+      lastFrame: 359
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .974683344
+        functionName: ImpactDamage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: adbf9096ab2094d72ae1e085fe59fbed,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FistPunchR
+      takeName: Default Take
+      firstFrame: 361
+      lastFrame: 371
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .274262041
+        functionName: ImpactDamage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: adbf9096ab2094d72ae1e085fe59fbed,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FistPunchL
+      takeName: Default Take
+      firstFrame: 371
+      lastFrame: 382
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .383966982
+        functionName: ImpactDamage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: adbf9096ab2094d72ae1e085fe59fbed,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FistLower
+      takeName: Default Take
+      firstFrame: 383
+      lastFrame: 404
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FistInspect
+      takeName: Default Take
+      firstFrame: 405
+      lastFrame: 454
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ItemPickup
+      takeName: Default Take
+      firstFrame: 456
+      lastFrame: 490
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ItemRing
+      takeName: Default Take
+      firstFrame: 491
+      lastFrame: 552
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: OrderTakedown
+      takeName: Default Take
+      firstFrame: 553
+      lastFrame: 590
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RifleDrawBack
+      takeName: Default Take
+      firstFrame: 591
+      lastFrame: 610
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BowPull
+      takeName: Default Take
+      firstFrame: 611
+      lastFrame: 620
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BowPullIdle
+      takeName: Default Take
+      firstFrame: 621
+      lastFrame: 661
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BowRelease
+      takeName: Default Take
+      firstFrame: 662
+      lastFrame: 668
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BowReleaseCycle
+      takeName: Default Take
+      firstFrame: 662
+      lastFrame: 716
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BowReload
+      takeName: Default Take
+      firstFrame: 683
+      lastFrame: 716
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BowHit
+      takeName: Default Take
+      firstFrame: 717
+      lastFrame: 730
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BowPullWalk
+      takeName: Default Take
+      firstFrame: 732
+      lastFrame: 761
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Arm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l1/thumb_L1/thumb_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l2/index_L1/index_L2/index_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l3/middle_L1/middle_L2/middle_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l4/ring_L1/ring_L2/ring_L3
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2
+        weight: 1
+      - path: Armature/Arm_L/UpArm_L/Elbow_L/Hand_L/l5/tiny_L1/tiny_L2/tiny_L3
+        weight: 1
+      - path: Armature/Arm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r1/thumb_R1/thumb_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r2/index_R1/Index_R2/Index_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r3/middle_R1/middle_R2/middle_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r4/ring_R1/ring_R2/ring_R3
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2
+        weight: 1
+      - path: Armature/Arm_R/UpArm_R/Elbow_R/Hand_R/r5/tiny_R1/tiny_R2/tiny_R3
+        weight: 1
+      - path: Arms
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

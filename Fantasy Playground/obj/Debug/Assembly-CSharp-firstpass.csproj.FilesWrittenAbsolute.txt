@@ -1,0 +1,4 @@
+/Users/Shared/Unity/Fantasy Playground/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/Shared/Unity/Fantasy Playground/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/Shared/Unity/Fantasy Playground/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/Shared/Unity/Fantasy Playground/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
