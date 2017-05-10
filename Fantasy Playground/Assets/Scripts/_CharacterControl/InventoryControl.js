@@ -11,7 +11,7 @@ public class InventoryControl extends CharacterInventory {
 	var interfaceMenu : InterfaceMenu;
 /*	private var interfaceStyle : InterfaceReference;	*/
 
-	var invCanvas : Canvas;
+	var invCanvas : GameObject;
 	var invButton : UI.Button[] = new UI.Button[7];
 	var invButtonTxt : UI.Text[] = new UI.Text[7];
 	var invButtonIcon : UI.Image[] = new UI.Image[7];
@@ -39,7 +39,7 @@ public class InventoryControl extends CharacterInventory {
 			UiUpdateItemList();
 			UiUpdateInventoryDescription();
 		}
-		invCanvas.enabled = openNow;
+		invCanvas.SetActive(openNow);
 		opened = openNow;
 	}
 

@@ -11,9 +11,9 @@ function Start () {
 
 }
 
-function RequestInteraction (user : GameObject) {
+function RequestInteraction (user : Character) {
 	if (eventCtrl != null && Time.time > lastUse + interactRate) {
-		Debug.Log("Interaction Event requested");
+		Debug.Log("Interaction Event requested. User type; " + user.GetType().ToString());
 		eventCtrl.SendMessage("StartInteraction", user, SendMessageOptions.DontRequireReceiver);
 		lastUse = Time.time;
 	}

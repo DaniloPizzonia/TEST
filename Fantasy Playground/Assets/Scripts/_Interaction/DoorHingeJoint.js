@@ -23,6 +23,9 @@ function Start () {
 }
 
 function StartInteraction (user : Character) {
+	if(joint == null)
+		return;
+	
 	if (open == false) {
 		var dirMod = 1.0;
 		if (openBothWays == true && Vector3.Dot(transform.position - user.transform.position, originDir) < 0.0) {

@@ -13,10 +13,10 @@ public class MouseInteraction extends CharacterInteraction {
 	
 	var menuCtrl : InterfaceMenu;
 	
-	var interCanvas : Canvas;
+	var interCanvas : GameObject;
 	var interBoxTxt : UI.Text;
 	var interBoxIcon : UI.Image;
-	var observeCanvas : Canvas;
+	var observeCanvas : GameObject;
 	var observeTxt : UI.Text;
 	var observeIcon : UI.Image;
 
@@ -43,16 +43,20 @@ public class MouseInteraction extends CharacterInteraction {
 					}
 					event = ray.collider.gameObject.GetComponent(InteractionEvent);
 					item = null;
+					UiUpdateInteractWindows();
 				}
 				else {
 					event = null;
 					if (ray.collider.gameObject.GetComponent(Item)) {
-						if (item == null) {
+						var prevItem : Item = item;
+						// Define a new item that we're considering now:
+						item = ray.collider.gameObject.GetComponent(Item);
+
+						if (prevItem == null) {
 							// The item was previously undefined, but not anymore. Time to show the UI:
 							UiToggleInteractWindow(true);
 						}
-						// Define a new item that we're considering now:
-						item = ray.collider.gameObject.GetComponent(Item);
+						UiUpdateInteractWindows();
 					}
 					else {
 						item = null;
@@ -103,6 +107,7 @@ public class MouseInteraction extends CharacterInteraction {
 
 	function DirectInteraction () {
 		if (event != null) {
+			Debug.Log("Requesting interaction. User: " + user.GetType().ToString());
 			event.SendMessage("RequestInteraction", user, SendMessageOptions.DontRequireReceiver);
 		}
 		else if (item != null) {
@@ -163,7 +168,7 @@ public class MouseInteraction extends CharacterInteraction {
 		if (show == true) {
 			UiToggleObserveWindow(false);
 		}
-		interCanvas.enabled = show;
+		interCanvas.SetActive(show);
 	}
 	// Enable or disable UI containing more detailed information:
 	function UiToggleObserveWindow (show : boolean) {
@@ -171,7 +176,7 @@ public class MouseInteraction extends CharacterInteraction {
 		if (show == true) {
 			UiToggleInteractWindow(false);
 		}
-		observeCanvas.enabled = show;
+		observeCanvas.SetActive(show);
 	}
 
 }

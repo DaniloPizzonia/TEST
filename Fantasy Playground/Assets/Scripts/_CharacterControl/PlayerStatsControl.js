@@ -7,7 +7,7 @@ public class PlayerStatsControl extends CharacterStats {
 	var interfaceMenu : InterfaceMenu;
 	var inventoryMenu : InventoryControl;
 
-	var statsCanvas : Canvas;
+	var statsCanvas : GameObject;
 	var statsSlot : UI.Button[] = new UI.Button[6];
 	var statsSlotTxt : UI.Text[] = new UI.Text[6];
 	var statsSlotIcon : UI.Image[] = new UI.Image[6];
@@ -30,7 +30,7 @@ public class PlayerStatsControl extends CharacterStats {
 			UiUpdateEquipList();
 		}
 		// Enable or disable the UI canvas:
-		statsCanvas.enabled = openNow;
+		statsCanvas.SetActive(openNow);
 		opened = openNow;
 	}
 

@@ -17,8 +17,8 @@ var playerStatsCtrl : PlayerStatsControl;		// Gives all data and control over th
 var inventoryCtrl : InventoryControl;			// Gives all data and control over the player inventory.
 var interactCtrl : MouseInteraction;
 
-var menuCanvas : Canvas;
-var rootCanvas : Canvas;
+var menuCanvas : GameObject;
+var rootCanvas : GameObject;
 
 var blankItemIcon : Sprite;
 var missingItemIcon : Sprite;
@@ -26,12 +26,7 @@ var missingItemIcon : Sprite;
 
 function Start () {
 	menuSpaceOrigin = Vector2(Screen.width*.5, Screen.height*.5);
-	if (opened == true) {
-		rootCanvas.enabled = true;
-	}
-	else {
-		rootCanvas.enabled = false;
-	}
+	rootCanvas.SetActive(opened);
 }
 
 function Update () {
@@ -40,7 +35,7 @@ function Update () {
 		scrollPos = Mathf.Lerp(scrollPos, scrollTar, Time.deltaTime * 3.0);
 		var screenSpace = Vector2.Scale(Vector2(Screen.width, Screen.height), Vector2(menuPosition.x, menuPosition.y));
 		menuSpaceOrigin = screenSpace + Vector2(menuPosition.z, menuPosition.w + scrollPos);
-		var UiRect = menuCanvas.gameObject.GetComponent(RectTransform);
+		var UiRect = menuCanvas.GetComponent(RectTransform);
 		UiRect.anchoredPosition = menuSpaceOrigin;
 
 		if (Input.GetKeyDown("tab")) {
@@ -56,27 +51,27 @@ function Update () {
 		UiToggleMenu();
 	}
 	if (Input.GetKeyDown("p")) {
-		UiTogglePlayer();
+		SetMenuState(0);
 	}
 	if (Input.GetKeyDown("i")) {
-		UiToggleInventory();
+		SetMenuState(1);
 	}
 	if (Input.GetKeyDown("l")) {
-		UiToggleMessages();
+		SetMenuState(2);
 	}
 	if (Input.GetKeyDown("m")) {
-		UiToggleNavigation();
+		SetMenuState(3);
 	}
 }
 
 
 function UiOpenMenu () {
 	opened = true;
-	rootCanvas.enabled = true;
+	rootCanvas.SetActive(true);
 }
 function UiCloseMenu () {
 	opened = false;
-	rootCanvas.enabled = false;
+	rootCanvas.SetActive(false);
 
 	// Tell all subsections to close as well:
 	playerStatsCtrl.UiTogglePlayerStats(false);
@@ -101,100 +96,28 @@ function UiToggleMenu () {
 	}
 }
 
+function SetMenuState(newState : int)
+{
+	if(newState < 0 || newState > 5)
+	{
+		UiCloseMenu();
+		return;
+	}
+	if(newState == menuDepth && opened == true)
+	{
+		UiCloseMenu();
+		return;
+	}
 
-function UiTogglePlayer () {
-	if (menuDepth != 0) {
-		UiOpenMenu();
-		menuDepth = 0;
-	}
-	else {
-		UiToggleMenu();
-	}
-	inventoryCtrl.UiToggleInventory(false);
-	playerStatsCtrl.UiTogglePlayerStats(true);
-}
-function UiToggleInventory () {
-	if (menuDepth != 1) {
-		UiOpenMenu();
-		menuDepth = 1;
-	}
-	else {
-		UiToggleMenu();
-	}
-	inventoryCtrl.UiToggleInventory(true);
-	playerStatsCtrl.UiTogglePlayerStats(false);
-}
-function UiToggleFriends () {
-	if (menuDepth != 2) {
-		UiOpenMenu();
-		menuDepth = 2;
-	}
-	else {
-		UiToggleMenu();
-	}
-	inventoryCtrl.UiToggleInventory(false);
-	playerStatsCtrl.UiTogglePlayerStats(false);
-}
-function UiToggleMessages () {
-	if (menuDepth != 3) {
-		UiOpenMenu();
-		menuDepth = 3;
-	}
-	else {
-		UiToggleMenu();
-	}
-	inventoryCtrl.UiToggleInventory(false);
-	playerStatsCtrl.UiTogglePlayerStats(false);
-}
-function UiToggleNavigation () {
-	if (menuDepth != 4) {
-		UiOpenMenu();
-		menuDepth = 4;
-	}
-	else {
-		UiToggleMenu();
-	}
-	inventoryCtrl.UiToggleInventory(false);
-	playerStatsCtrl.UiTogglePlayerStats(false);
-}
-function UiToggleSettings () {
-	if (menuDepth != 5) {
-		UiOpenMenu();
-		menuDepth = 5;
-	}
-	else {
-		UiToggleMenu();
-	}
-	inventoryCtrl.UiToggleInventory(false);
-	playerStatsCtrl.UiTogglePlayerStats(false);
-}
+	menuDepth = newState;
+	UiOpenMenu();
 
+	playerStatsCtrl.UiTogglePlayerStats(newState == 0);
+	inventoryCtrl.UiToggleInventory(newState == 1);
+}
 
 function UiPressMenuListButton (tarDepth : int) {
-	// Go to player stats:
-	if (tarDepth == 0) {
-		UiTogglePlayer();
-	}
-	// Go to item inventory:
-	else if (tarDepth == 1) {
-		UiToggleInventory();
-	}
-	// Go to friend and player list:
-	else if (tarDepth == 2) {
-		UiToggleFriends();
-	}
-	// Go to private message inbox:
-	else if (tarDepth == 3) {
-		UiToggleMessages();
-	}
-	// Go to navigation menu:
-	else if (tarDepth == 4) {
-		UiToggleNavigation();
-	}
-	// Go to game settings:
-	else {
-		UiToggleSettings();
-	}
+	SetMenuState(tarDepth);
 }
 
 
