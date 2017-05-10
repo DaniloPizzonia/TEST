@@ -20,7 +20,7 @@ public class Item extends Entity {
 
 	function Start () {
 		if (GetComponent(Rigidbody)) {
-			itemMass = rigidbody.mass;
+			itemMass = GetComponent.<Rigidbody>().mass;
 		}
 		if (isEquipped == true) {
 			DisablePhysics();
@@ -56,7 +56,7 @@ public class Item extends Entity {
 		if (!GetComponent(Rigidbody)) {
 			gameObject.AddComponent(Rigidbody);
 		}
-		rigidbody.mass = itemMass;
+		GetComponent.<Rigidbody>().mass = itemMass;
 	}
 	function DisablePhysics () {
 		Destroy(GetComponent(Rigidbody));

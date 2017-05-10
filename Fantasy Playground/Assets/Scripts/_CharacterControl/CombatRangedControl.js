@@ -92,7 +92,7 @@ function FireShot () {
 	}
 	// Play a fire sound:
 	if (weapon.fireSound != null) {
-		audio.PlayOneShot(weapon.fireSound);
+		GetComponent.<AudioSource>().PlayOneShot(weapon.fireSound);
 	}
 
 	// Reduce ammo count:
@@ -108,7 +108,7 @@ function Reload () {
 
 		// Play a reload sound:
 		if (weapon.reloadSound != null) {
-			audio.PlayOneShot(weapon.reloadSound);
+			GetComponent.<AudioSource>().PlayOneShot(weapon.reloadSound);
 		}
 
 		lastReload = Time.time;

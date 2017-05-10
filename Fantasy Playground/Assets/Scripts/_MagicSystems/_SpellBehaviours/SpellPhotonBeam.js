@@ -44,11 +44,11 @@ function CastMagicNow (caster : CombatMagicControl) {
 
 		// Get a rigidbody attached to this GO or one of its parents:
 		var rig : Rigidbody;
-		if (coll.gameObject.rigidbody) {
-			rig = coll.gameObject.rigidbody;
+		if (coll.gameObject.GetComponent.<Rigidbody>()) {
+			rig = coll.gameObject.GetComponent.<Rigidbody>();
 		}
-		else if (coll.transform.parent != null && coll.transform.parent.rigidbody) {
-			rig = coll.transform.parent.rigidbody;
+		else if (coll.transform.parent != null && coll.transform.parent.GetComponent.<Rigidbody>()) {
+			rig = coll.transform.parent.GetComponent.<Rigidbody>();
 		}
 		if (rig != null) {
 			// We'll just make this an exponentially diminishing beam... (F = F0 / R²)

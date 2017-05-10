@@ -23,10 +23,10 @@ function CastMagicNow (caster0 : CombatMagicControl) {
 	caster = caster0;
 	charge += chargeRate * Time.deltaTime;
 	if (GetComponent(AudioSource)) {
-		if (audio.isPlaying == false) {
-			audio.Play();
-			audio.pitch = 1.0 + charge / maxCharge;
-			audio.loop = true;
+		if (GetComponent.<AudioSource>().isPlaying == false) {
+			GetComponent.<AudioSource>().Play();
+			GetComponent.<AudioSource>().pitch = 1.0 + charge / maxCharge;
+			GetComponent.<AudioSource>().loop = true;
 		}
 	}
 	lastCharge = Time.time;
@@ -37,7 +37,7 @@ function FinalizeCharge () {
 	yield WaitForSeconds(0.051);
 	if (Time.time > lastCharge + 0.05 || charge >= maxCharge) {
 		if (GetComponent(AudioSource)) {
-			audio.Stop();
+			GetComponent.<AudioSource>().Stop();
 		}
 		ForceDischarge();
 	}
@@ -69,11 +69,11 @@ function ForceDischarge () {
 					if (Vector3.Angle(collDir, dir) < angle) {
 						// Get a rigidbody to push around:
 						var rig : Rigidbody;
-						if (coll.gameObject.rigidbody) {
-							rig = coll.gameObject.rigidbody;
+						if (coll.gameObject.GetComponent.<Rigidbody>()) {
+							rig = coll.gameObject.GetComponent.<Rigidbody>();
 						}
-						else if (coll.transform.parent != null && coll.transform.parent.rigidbody) {
-							rig = coll.transform.parent.rigidbody;
+						else if (coll.transform.parent != null && coll.transform.parent.GetComponent.<Rigidbody>()) {
+							rig = coll.transform.parent.GetComponent.<Rigidbody>();
 						}
 						if (rig != null) {
 							var distMod = 1.0 / Mathf.Max(0.1, Vector3.Distance(pos, coll.transform.position));

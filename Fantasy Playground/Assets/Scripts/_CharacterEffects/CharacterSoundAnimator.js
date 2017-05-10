@@ -15,5 +15,5 @@ function StepSounds (side : int) {
 		steps = stepSoundsL;
 	}
 	var step = steps[Random.Range(0, steps.length-1)];
-	audio.PlayOneShot(step, stepVolume);
+	GetComponent.<AudioSource>().PlayOneShot(step, stepVolume);
 }

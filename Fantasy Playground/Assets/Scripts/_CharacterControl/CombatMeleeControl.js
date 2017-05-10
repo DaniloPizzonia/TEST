@@ -68,11 +68,11 @@ function ImpactDamage (damageMod : Vector4) {
 
 				// Get a rigidbody to push around:
 				var rig : Rigidbody;
-				if (coll.gameObject.rigidbody) {
-					rig = coll.gameObject.rigidbody;
+				if (coll.gameObject.GetComponent.<Rigidbody>()) {
+					rig = coll.gameObject.GetComponent.<Rigidbody>();
 				}
-				else if (coll.transform.parent != null && coll.transform.parent.rigidbody) {
-					rig = coll.transform.parent.rigidbody;
+				else if (coll.transform.parent != null && coll.transform.parent.GetComponent.<Rigidbody>()) {
+					rig = coll.transform.parent.GetComponent.<Rigidbody>();
 				}
 				if (rig != null) {
 					var force = dir * Mathf.Max(0.5, weapon.bluntDamage) * strikeForce;
